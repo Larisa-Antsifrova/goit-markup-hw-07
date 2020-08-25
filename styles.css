@@ -271,10 +271,10 @@ img {
 } */
 
 /* Advantages section */
-.section {
+/* .section {
 	padding-top: 94px;
 	padding-bottom: 94px;
-}
+} */
 
 /* .visually-hidden {
 	position: absolute !important;
@@ -288,7 +288,7 @@ img {
 	overflow: hidden;
 } */
 
-.advantages {
+/* .advantages {
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -340,10 +340,10 @@ img {
 	line-height: 1.7;
 
 	color: var(--primary-text-color);
-}
+} */
 
 /* Title for all sections but Hero */
-.section-title {
+/* .section-title {
 	margin-top: 0;
 	margin-bottom: 50px;
 
@@ -353,12 +353,12 @@ img {
 	text-align: center;
 
 	color: var(--primary-title-color);
-}
+} */
 
 /* Services section */
-.section.no-padding {
+/* .section.no-padding {
 	padding-top: 0;
-}
+} */
 
 .services {
 	display: flex;
