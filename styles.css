@@ -1,4 +1,4 @@
-/* Basic palette */
+/* Basic palette
 :root {
 	--primary-title-color: #212121;
 	--primary-text-color: #757575;
@@ -8,9 +8,9 @@
 	--footer-bg-color: #2f303a;
 	--accent-color: #2196f3;
 	--primary-icons-color: #afb1b8;
-}
+} */
 
-/* Global css properties */
+/* Global css properties
 html {
 	box-sizing: border-box;
 }
@@ -36,10 +36,10 @@ img {
 	display: block;
 	max-width: 100%;
 	height: auto;
-}
+} */
 
 /* Rules for reseting properties */
-.link {
+/* .link {
 	text-decoration: none;
 }
 
@@ -47,7 +47,7 @@ img {
 	margin: 0;
 	padding: 0;
 	list-style: none;
-}
+} */
 
 .container {
 	width: 1200px;
