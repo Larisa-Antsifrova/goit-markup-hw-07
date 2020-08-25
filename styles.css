@@ -102,7 +102,7 @@ img {
 	color: var(--accent-color);
 } */
 
-.site-nav .current {
+/* .site-nav .current {
 	position: relative;
 
 	color: var(--accent-color);
@@ -120,10 +120,10 @@ img {
 
 	background-color: var(--accent-color);
 	border-radius: 2px;
-}
+} */
 
 /* Logo */
-.logo {
+/* .logo {
 	display: block;
 	margin-right: 85px;
 	margin-bottom: 20px;
@@ -134,21 +134,21 @@ img {
 	line-height: 1.19;
 
 	color: var(--accent-color);
-}
+} */
 
 /* Logo in header */
-.logo-header {
+/* .logo-header {
 	color: var(--primary-black-color);
 }
 
 .logo.no-margin-bottom {
 	margin-bottom: 0;
-}
+} */
 
 /* Logo in footer */
-.logo-footer {
+/* .logo-footer {
 	color: var(--primary-white-color);
-}
+} */
 
 /* Contacts in header */
 .contacts {

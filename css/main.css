@@ -379,4 +379,27 @@ img {
   background-color: #2196f3;
   border-radius: 2px;
 }
+
+.logo {
+  display: block;
+  margin-right: 85px;
+  margin-bottom: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #2196f3;
+}
+
+.logo.no-margin-bottom {
+  margin-bottom: 0;
+}
+
+.logo-header {
+  color: #000000;
+}
+
+.logo-footer {
+  color: #ffffff;
+}
 /*# sourceMappingURL=main.css.map */
