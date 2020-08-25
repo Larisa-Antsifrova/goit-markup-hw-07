@@ -483,7 +483,7 @@ img {
 } */
 
 /* Clients section */
-.clients {
+/* .clients {
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -519,7 +519,7 @@ img {
 
 .clients-logo-icon {
 	fill: currentColor;
-}
+} */
 
 /* Footer section */
 .footer {
