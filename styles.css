@@ -522,30 +522,30 @@ img {
 } */
 
 /* Footer section */
-.footer {
+/* .footer {
 	padding-top: 60px;
 	padding-bottom: 60px;
 
 	background-color: var(--footer-bg-color);
-}
+} */
 
-.footer-flexbox {
+/* .footer-flexbox {
 	display: flex;
 	justify-content: space-between;
 	align-items: baseline;
-}
+} */
 
 /* Footer blocks */
-.footer-information {
+/* .footer-information {
 	width: calc((100% - 30px) / 2);
 }
 
 .footer-information:not(:last-child) {
 	margin-right: 30px;
-}
+} */
 
 /* Address and social media */
-.footer-contacts-block {
+/* .footer-contacts-block {
 	width: calc((100% - 30px) / 2);
 }
 
@@ -581,10 +581,10 @@ img {
 .contacts-footer a:hover,
 .contacts-footer a:focus {
 	color: var(--accent-color);
-}
+} */
 
 /* Call to action */
-.call-to-action {
+/* .call-to-action {
 	display: inline-block;
 	margin-top: 0;
 	margin-bottom: 20px;
@@ -628,14 +628,14 @@ img {
 .footer-socials-icon {
 	width: 20px;
 	height: 20px;
-	fill: currentColor;
-}
+	fill: currentColor; */
+/* } */
 
 /* Footer form block */
-.form {
+/* .form {
 	display: flex;
 	justify-content: flex-end;
-}
+} */
 
 /* Portfolio page */
 /* Filter */
@@ -657,7 +657,6 @@ img {
 	border: transparent;
 	border-radius: 4px;
 
-	/* font-family: inherit; */
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.62;
@@ -786,7 +785,7 @@ img {
 }
 
 /* Form in footer */
-.subscribe-form {
+/* .subscribe-form {
 	display: flex;
 }
 
@@ -862,11 +861,11 @@ img {
 .form-button:focus {
 	color: var(--accent-color);
 	background-color: var(--primary-white-color);
-}
+} */
 
 /* Modal */
 
-.modal-backdrop {
+/* .modal-backdrop {
 	position: fixed;
 
 	top: 0;
@@ -1038,17 +1037,17 @@ img {
 }
 
 .checkbox {
-	position: absolute;
+	position: absolute; */
 
-	/* -webkit-appearance: none;
+/* -webkit-appearance: none;
 	-moz-appearace: none;
 	appearace: none */
 
-	height: 1px;
+/* height: 1px;
 	width: 1px;
 	overflow: hidden;
 	clip: rect(0 0 0 0);
-}
+} */
 
 /* Custom checkbox as background image (Makeev's video) */
 
@@ -1069,7 +1068,7 @@ img {
 
 /* Custom checkbox via CSS and svg check icon (Sasha's video and homework description) */
 
-.icon-checkbox {
+/* .icon-checkbox {
 	position: absolute;
 	top: 50%;
 	left: 0;
@@ -1144,4 +1143,4 @@ img {
 .close-button:hover .close-button-icon,
 .close-button:focus .close-button-icon {
 	fill: var(--accent-color);
-}
+} */
