@@ -1,0 +1,36 @@
+.social-links {
+	display: flex;
+	justify-content: center;
+}
+
+.social-links-item:not(:last-child) {
+	margin-right: 10px;
+}
+
+.social-links-item a {
+	display: flex;
+	width: 44px;
+	height: 44px;
+	border-radius: 50px;
+
+	color: $primaryIconsColor;
+	background-color: transparent;
+
+	justify-content: center;
+	align-items: center;
+
+	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+	&:hover,
+	&:focus {
+		color: $basicWhiteColor;
+		background-color: $accentColor;
+	}
+}
+
+.socials-icon {
+	height: 20px;
+	width: 20px;
+
+	fill: currentColor;
+}
