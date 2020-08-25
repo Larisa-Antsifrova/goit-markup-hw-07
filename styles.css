@@ -1,3 +1,15 @@
+/* Basic palette */
+:root {
+	--primary-title-color: #212121;
+	--primary-text-color: #757575;
+	--primary-white-color: #ffffff;
+	--primary-black-color: #000000;
+	--secondary-bg-color: #f5f4fa;
+	--footer-bg-color: #2f303a;
+	--accent-color: #2196f3;
+	--primary-icons-color: #afb1b8;
+}
+
 /* Global css properties */
 html {
 	box-sizing: border-box;
