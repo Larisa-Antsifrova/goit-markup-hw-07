@@ -196,7 +196,7 @@ img {
 } */
 
 /* Hero section */
-.hero-section {
+/* .hero-section {
 	text-align: center;
 }
 
@@ -246,10 +246,10 @@ img {
 	padding-right: 32px;
 	padding-bottom: 10px;
 	padding-left: 32px;
-	border-radius: 4px;
+	border-radius: 4px; */
 
-	/* font-family: inherit; */
-	font-weight: 700;
+/* font-family: inherit; */
+/* font-weight: 700;
 	font-size: 16px;
 	line-height: 1.87;
 	letter-spacing: 0.06em;
@@ -268,7 +268,7 @@ img {
 .hero-button:focus {
 	color: var(--accent-color);
 	background-color: var(--primary-white-color);
-}
+} */
 
 /* Advantages section */
 .section {
@@ -276,17 +276,17 @@ img {
 	padding-bottom: 94px;
 }
 
-.visually-hidden {
+/* .visually-hidden {
 	position: absolute !important;
 	clip: rect(1px 1px 1px 1px);
-	/* IE6, IE7 */
+	IE6, IE7
 	clip: rect(1px, 1px, 1px, 1px);
 	padding: 0 !important;
 	border: 0 !important;
 	height: 1px !important;
 	width: 1px !important;
 	overflow: hidden;
-}
+} */
 
 .advantages {
 	display: flex;
