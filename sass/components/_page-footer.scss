@@ -27,9 +27,7 @@
 	margin-bottom: 8px;
 
 	font-style: normal;
-	font-weight: 400;
-	font-size: 14px;
-	line-height: 1.71;
+	@include fontBasicStyles(14px, 1.71);
 
 	color: $basicWhiteColor;
 }
@@ -39,9 +37,7 @@
 }
 
 .contacts-footer a {
-	font-weight: 400;
-	font-size: 14px;
-	line-height: 1.71;
+	@include fontBasicStyles(14px, 1.71);
 
 	color: rgba(255, 255, 255, 0.6);
 
@@ -58,9 +54,8 @@
 	margin-top: 0;
 	margin-bottom: 20px;
 
-	font-weight: 700;
-	font-size: 14px;
-	line-height: 1.14;
+	@include fontBasicStyles(14px, 1.14, 700);
+
 	text-transform: uppercase;
 
 	color: $basicWhiteColor;

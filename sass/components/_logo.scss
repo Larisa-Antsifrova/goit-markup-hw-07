@@ -4,9 +4,8 @@
 	margin-bottom: 20px;
 
 	font-family: $logoFont;
-	font-weight: 700;
-	font-size: 26px;
-	line-height: 1.19;
+
+	@include fontBasicStyles(26px, 1.19, 700);
 
 	color: $accentColor;
 

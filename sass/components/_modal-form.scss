@@ -2,12 +2,9 @@
 	margin: 0;
 	margin-bottom: 12px;
 
-	font-weight: bold;
-	font-size: 20px;
-	line-height: 1.15;
+	@include fontBasicStyles(20px, 1.15, 700);
 
 	text-align: center;
-	letter-spacing: 0.03em;
 
 	color: $primaryTitleColor;
 }
@@ -21,9 +18,7 @@
 	display: block;
 	margin-bottom: 4px;
 
-	font-size: 12px;
-	line-height: 1.16;
-	letter-spacing: 0.01em;
+	@include fontBasicStyles(12px, 1.16, 400, 0.01em);
 
 	color: $primaryTextColor;
 }
@@ -83,9 +78,7 @@
 	height: 96px;
 
 	&::placeholder {
-		font-size: 12px;
-		line-height: 1.16;
-		letter-spacing: 0.01em;
+		@include fontBasicStyles(12px, 1.16, 400, 0.01em);
 
 		color: rgba(117, 117, 117, 0.5);
 	}
@@ -103,10 +96,7 @@
 	margin-bottom: 30px;
 	padding-left: 25px;
 
-	font-size: 14px;
-	line-height: 1.71;
-
-	letter-spacing: 0.03em;
+	@include fontBasicStyles(14px, 1.71);
 
 	color: $primaryTextColor;
 }

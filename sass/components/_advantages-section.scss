@@ -35,9 +35,7 @@
 	margin-top: 0;
 	margin-bottom: 10px;
 
-	font-weight: 700;
-	font-size: 14px;
-	line-height: 1.14;
+	@include fontBasicStyles(14px, 1.14, 700);
 	text-transform: uppercase;
 
 	color: $primaryTitleColor;
