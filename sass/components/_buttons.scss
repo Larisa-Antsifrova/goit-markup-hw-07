@@ -20,7 +20,7 @@
 
 	cursor: pointer;
 
-	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: color $primaryTransition, background-color $primaryTransition;
 
 	&:hover,
 	&:focus {
@@ -51,7 +51,7 @@
 
 	cursor: pointer;
 
-	transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: color $primaryTransition, background-color $primaryTransition;
 }
 
 .button-icon {
@@ -109,7 +109,7 @@
 	width: 11px;
 	height: 11px;
 	fill: $basicBlackColor;
-	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: fill $primaryTransition;
 }
 
 .close-button:hover .close-button-icon,

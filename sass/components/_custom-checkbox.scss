@@ -19,7 +19,7 @@
 	border-radius: 2px;
 	background-color: $basicWhiteColor;
 
-	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+	transition: background-color $primaryTransition, border $primaryTransition;
 
 	.checkbox:checked + & {
 		background-image: url(../images/icons/check.svg);

@@ -13,6 +13,8 @@ $accentColor: #2196f3;
 $primaryIconsColor: #afb1b8;
 
 // Variables for fonts
-
 $logoFont: "Raleway", sans-serif;
 $primaryFont: "Roboto", sans-serif;
+
+// Variable for animation
+$primaryTransition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
